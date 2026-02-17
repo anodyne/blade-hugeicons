@@ -1,0 +1,63 @@
+{
+  "name": "anodyne/blade-hugeicons",
+  "description": "A package to easily make use of Hugeicons in your Laravel Blade views.",
+  "keywords": [
+    "Blade",
+    "Hugeicons",
+    "Laravel"
+  ],
+  "homepage": "https://github.com/anodyne/blade-hugeicons",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "David VanScott",
+      "email": "contact@anodyne-productions.com",
+      "homepage": "https://anodyne-productions.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^8.1",
+    "blade-ui-kit/blade-icons": "^1.5",
+    "illuminate/support": "^9.0|^10.0|^11.0|^12.0"
+  },
+  "require-dev": {
+    "friendsofphp/php-cs-fixer": "^3.14",
+    "orchestra/testbench": "^7.0|^8.0|^9.0|^10.0",
+    "phpunit/phpunit": "^9.5|^10.0|^11.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Anodyne\\Hugeicons\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Anodyne\\Hugeicons\\BladeHugeiconsServiceProvider"
+      ]
+    }
+  },
+  "scripts": {
+    "format": [
+      "vendor/bin/php-cs-fixer fix"
+    ],
+    "generate-enum": "node ./bin/generate-enum.mjs",
+    "compile-icons": "node ./bin/compile-icons.mjs",
+    "update-icons": [
+      "npm update @hugeicons/core-free-icons",
+      "@compile-icons"
+    ],
+    "test": "vendor/bin/phpunit --colors=always"
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}

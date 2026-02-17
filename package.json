@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "scripts": {
+    "compile-icons": "node ./bin/compile-icons.mjs",
+    "generate-enum": "node ./bin/generate-enum.mjs"
+  },
+  "devDependencies": {
+    "@hugeicons/core-free-icons": "^3.0",
+    "svgo": "^3.2"
+  }
+}
