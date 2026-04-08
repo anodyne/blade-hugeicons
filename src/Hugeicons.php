@@ -1727,6 +1727,10 @@ enum Hugeicons: string
     case Exchange03 = 'hugeicons-exchange-03';
     case ExchangeBitcoin = 'hugeicons-exchange-bitcoin';
     case ExchangeDollar = 'hugeicons-exchange-dollar';
+    case ExclamationMarkBigSlash = 'hugeicons-exclamation-mark-big-slash';
+    case ExclamationMarkBig = 'hugeicons-exclamation-mark-big';
+    case ExclamationMarkSlash = 'hugeicons-exclamation-mark-slash';
+    case ExclamationMark = 'hugeicons-exclamation-mark';
     case ExpandParagraph = 'hugeicons-expand-paragraph';
     case Expand = 'hugeicons-expand';
     case Expander = 'hugeicons-expander';
@@ -1996,8 +2000,8 @@ enum Hugeicons: string
     case Fuel02 = 'hugeicons-fuel-02';
     case FuelStation = 'hugeicons-fuel-station';
     case Fuel = 'hugeicons-fuel';
-    case FullScreen = 'hugeicons-full-screen';
     case FullSignal = 'hugeicons-full-signal';
+    case Fullscreen = 'hugeicons-fullscreen';
     case FunctionCircle = 'hugeicons-function-circle';
     case FunctionOfX = 'hugeicons-function-of-x';
     case FunctionSquare = 'hugeicons-function-square';
@@ -4481,6 +4485,7 @@ enum Hugeicons: string
     case TennisRacket = 'hugeicons-tennis-racket';
     case TentTree = 'hugeicons-tent-tree';
     case Tent = 'hugeicons-tent';
+    case Terminal = 'hugeicons-terminal';
     case Terrace = 'hugeicons-terrace';
     case TestTube01 = 'hugeicons-test-tube-01';
     case TestTube02 = 'hugeicons-test-tube-02';
