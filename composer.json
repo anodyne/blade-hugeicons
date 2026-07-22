@@ -51,7 +51,8 @@
     "compile-icons": "node ./bin/compile-icons.mjs",
     "update-icons": [
       "npm update @hugeicons/core-free-icons",
-      "@compile-icons"
+      "@compile-icons",
+      "@generate-enum"
     ],
     "test": "vendor/bin/phpunit --colors=always"
   },
