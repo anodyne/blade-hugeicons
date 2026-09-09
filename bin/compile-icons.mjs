@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+#!/usr/bin/env bun
 
 import { spawn } from 'node:child_process';
 import fs from 'node:fs/promises';
@@ -15,7 +15,7 @@ const enumFileInput = process.argv[4] ?? 'src/Hugeicons.php';
 
 const outputDir = path.resolve(projectRoot, outputInput);
 
-const runNodeScript = (scriptPath, args = []) => new Promise((resolve, reject) => {
+const runScript = (scriptPath, args = []) => new Promise((resolve, reject) => {
     const child = spawn(process.execPath, [scriptPath, ...args], {
         cwd: projectRoot,
         stdio: 'inherit',
@@ -44,16 +44,7 @@ const optimizeSvgs = async (directory) => {
         const optimized = optimize(original, {
             path: svgFile,
             multipass: true,
-            plugins: [
-                {
-                    name: 'preset-default',
-                    params: {
-                        overrides: {
-                            removeViewBox: false,
-                        },
-                    },
-                },
-            ],
+            plugins: ['preset-default'],
         });
 
         await fs.writeFile(svgFile, optimized.data, 'utf8');
@@ -62,13 +53,13 @@ const optimizeSvgs = async (directory) => {
 
 const main = async () => {
     console.log('Compiling Hugeicons...');
-    await runNodeScript(path.join(projectRoot, 'bin/compile.mjs'), [sourceInput, outputInput]);
+    await runScript(path.join(projectRoot, 'bin/compile.mjs'), [sourceInput, outputInput]);
 
     console.log('Optimizing SVGs...');
     await optimizeSvgs(outputDir);
 
     console.log('Generating enum...');
-    await runNodeScript(path.join(projectRoot, 'bin/generate-enum.mjs'), [outputInput, enumFileInput]);
+    await runScript(path.join(projectRoot, 'bin/generate-enum.mjs'), [outputInput, enumFileInput]);
 
     console.log('All done!');
 };

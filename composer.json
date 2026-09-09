@@ -47,10 +47,10 @@
     "format": [
       "vendor/bin/php-cs-fixer fix"
     ],
-    "generate-enum": "node ./bin/generate-enum.mjs",
-    "compile-icons": "node ./bin/compile-icons.mjs",
+    "generate-enum": "bun ./bin/generate-enum.mjs",
+    "compile-icons": "bun ./bin/compile-icons.mjs",
     "update-icons": [
-      "npm update @hugeicons/core-free-icons",
+      "bun update @hugeicons/core-free-icons",
       "@compile-icons",
       "@generate-enum"
     ],
