@@ -1,14 +1,10 @@
 # Blade Hugeicons
 
-<a href="https://github.com/anodyne/blade-hugeicons/actions?query=workflow%3ATests">
-    <img src="https://github.com/anodyne/blade-hugeicons/workflows/Tests/badge.svg" alt="Tests">
-</a>
-<a href="https://packagist.org/packages/anodyne/blade-hugeicons">
-    <img src="https://poser.pugx.org/anodyne/blade-hugeicons/v/stable.svg" alt="Latest Stable Version">
-</a>
-<a href="https://packagist.org/packages/anodyne/blade-hugeicons">
-    <img src="https://poser.pugx.org/anodyne/blade-hugeicons/d/total.svg" alt="Total Downloads">
-</a>
+<a href="https://github.com/anodyne/blade-hugeicons/actions?query=workflow%3ATests"><img src="https://github.com/anodyne/blade-hugeicons/workflows/Tests/badge.svg" alt="Tests"></a>
+
+<a href="https://packagist.org/packages/anodyne/blade-hugeicons"><img src="https://poser.pugx.org/anodyne/blade-hugeicons/v/stable.svg" alt="Latest Stable Version"></a>
+
+<a href="https://packagist.org/packages/anodyne/blade-hugeicons"><img src="https://poser.pugx.org/anodyne/blade-hugeicons/d/total.svg" alt="Total Downloads"></a>
 
 A package to easily make use of [Hugeicons](https://hugeicons.com/) in your Laravel Blade views.
 
