@@ -59,37 +59,13 @@ Blade Hugeicons uses Blade Icons under the hood. Please refer to [the Blade Icon
 
 ### Enum
 
-Blade Hugeicons includes an enum that maps every icon to an enum case. This allows for easily referencing specific icons from PHP. This is also helpful when using Hugeicons with a system like [Filament](https://filamentphp.com/) for referencing icons throughout panels.
+Blade Hugeicons includes an enum that maps every icon to an enum case. This allows for easily referencing specific icons from PHP. This is also helpful when using Hugeicons with a system like [Filament](https://filamentphp.com/) for referencing icons.
 
-## Development
+```php
+use Anodyne\Hugeicons\Hugeicons;
 
-Install [Bun](https://bun.sh/) 1.3.14 to work on the icon build tooling, then install dependencies:
-
-```bash
-composer install
-bun install --frozen-lockfile
+svg(Hugeicons::AlertCircle->value);
 ```
-
-Compile and optimize the icons and regenerate the PHP enum:
-
-```bash
-bun run build
-```
-
-To regenerate only the enum, run `bun run generate-enum`. The equivalent
-`composer compile-icons` and `composer generate-enum` commands also use Bun.
-
-To update the upstream icon dependency and rebuild the icons, run:
-
-```bash
-composer update-icons
-```
-
-Commit `bun.lock` alongside dependency changes. Run the Pest test suite with `composer test`. To run a specific test, use
-`composer test -- --filter="compiles a Blade icon component"`.
-
-Format PHP code with Laravel Pint using `composer format`. To check formatting without
-changing files, run `composer format -- --test`.
 
 ## Changelog
 

@@ -50,7 +50,7 @@
     ],
     "update-icons": [
       "bun update @hugeicons/core-free-icons",
-      "bun ./bin/compile-icons.mjs"
+      "bun run build"
     ],
     "test": "vendor/bin/pest --colors=always"
   },
