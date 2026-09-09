@@ -36,7 +36,7 @@ Icons can be used a self-closing Blade components which will be compiled to SVG 
 You can also pass classes to your icon components:
 
 ```blade
-<x-hugeicons-abacus class="w-6 h-6 text-gray-500"/>
+<x-hugeicons-abacus class="size-6 text-gray-500"/>
 ```
 
 And even use inline styles:
@@ -79,7 +79,7 @@ bun install --frozen-lockfile
 Compile and optimize the icons and regenerate the PHP enum:
 
 ```bash
-bun run compile-icons
+bun run build
 ```
 
 To regenerate only the enum, run `bun run generate-enum`. The equivalent
@@ -91,7 +91,11 @@ To update the upstream icon dependency and rebuild the icons, run:
 composer update-icons
 ```
 
-Commit `bun.lock` alongside dependency changes. Run the PHP tests with `composer test`.
+Commit `bun.lock` alongside dependency changes. Run the Pest test suite with `composer test`. To run a specific test, use
+`composer test -- --filter="compiles a Blade icon component"`.
+
+Format PHP code with Laravel Pint using `composer format`. To check formatting without
+changing files, run `composer format -- --test`.
 
 ## Changelog
 

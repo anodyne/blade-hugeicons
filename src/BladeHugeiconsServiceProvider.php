@@ -13,7 +13,7 @@ final class BladeHugeiconsServiceProvider extends ServiceProvider
     {
         $this->callAfterResolving(Factory::class, function (Factory $factory) {
             $factory->add('hugeicons', [
-                'path' => __DIR__ . '/../resources/svg',
+                'path' => __DIR__.'/../resources/svg',
                 'prefix' => 'hugeicons',
                 'class' => 'hugeicon',
             ]);
@@ -24,7 +24,7 @@ final class BladeHugeiconsServiceProvider extends ServiceProvider
     {
         if ($this->app->runningInConsole()) {
             $this->publishes([
-                __DIR__ . '/../resources/svg' => public_path('vendor/blade-hugeicons'),
+                __DIR__.'/../resources/svg' => public_path('vendor/blade-hugeicons'),
             ], 'blade-hugeicons');
         }
     }
