@@ -6,7 +6,7 @@
     "build": "bun ./bin/compile-icons.mjs"
   },
   "devDependencies": {
-    "@hugeicons/core-free-icons": "^4.3.2",
+    "@hugeicons/core-free-icons": "^4.3.3",
     "svgo": "^4.1.0"
   }
 }

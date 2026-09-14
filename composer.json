@@ -49,7 +49,7 @@
       "vendor/bin/pint"
     ],
     "update-icons": [
-      "bun update @hugeicons/core-free-icons",
+      "bun update @hugeicons/core-free-icons --latest",
       "bun run build"
     ],
     "test": "vendor/bin/pest --colors=always"
