@@ -727,6 +727,7 @@ enum Hugeicons: string
     case BookSearch = 'hugeicons-book-search';
     case BookText = 'hugeicons-book-text';
     case BookType = 'hugeicons-book-type';
+    case BookUp2 = 'hugeicons-book-up-2';
     case BookUpTwo = 'hugeicons-book-up-two';
     case BookUpload = 'hugeicons-book-upload';
     case BookUser = 'hugeicons-book-user';
@@ -911,6 +912,7 @@ enum Hugeicons: string
     case CalendarCheck = 'hugeicons-calendar-check';
     case CalendarClock = 'hugeicons-calendar-clock';
     case CalendarCog = 'hugeicons-calendar-cog';
+    case CalendarDate1 = 'hugeicons-calendar-date-1';
     case CalendarDateOne = 'hugeicons-calendar-date-one';
     case CalendarDays = 'hugeicons-calendar-days';
     case CalendarDownload01 = 'hugeicons-calendar-download-01';
@@ -1353,6 +1355,7 @@ enum Hugeicons: string
     case CirclePoundSterling = 'hugeicons-circle-pound-sterling';
     case CirclePower = 'hugeicons-circle-power';
     case CircleQuestionMark = 'hugeicons-circle-question-mark';
+    case CircleSlash2 = 'hugeicons-circle-slash-2';
     case CircleSlashTwo = 'hugeicons-circle-slash-two';
     case CircleSlash = 'hugeicons-circle-slash';
     case CircleSmall = 'hugeicons-circle-small';
@@ -1397,9 +1400,18 @@ enum Hugeicons: string
     case ClockArrowUp = 'hugeicons-clock-arrow-up';
     case ClockCheck = 'hugeicons-clock-check';
     case ClockFading = 'hugeicons-clock-fading';
+    case ClockHour1 = 'hugeicons-clock-hour-1';
     case ClockHour10 = 'hugeicons-clock-hour-10';
     case ClockHour11 = 'hugeicons-clock-hour-11';
     case ClockHour12 = 'hugeicons-clock-hour-12';
+    case ClockHour2 = 'hugeicons-clock-hour-2';
+    case ClockHour3 = 'hugeicons-clock-hour-3';
+    case ClockHour4 = 'hugeicons-clock-hour-4';
+    case ClockHour5 = 'hugeicons-clock-hour-5';
+    case ClockHour6 = 'hugeicons-clock-hour-6';
+    case ClockHour7 = 'hugeicons-clock-hour-7';
+    case ClockHour8 = 'hugeicons-clock-hour-8';
+    case ClockHour9 = 'hugeicons-clock-hour-9';
     case ClockHourEight = 'hugeicons-clock-hour-eight';
     case ClockHourFive = 'hugeicons-clock-hour-five';
     case ClockHourFour = 'hugeicons-clock-hour-four';
@@ -1482,6 +1494,7 @@ enum Hugeicons: string
     case Colosseum = 'hugeicons-colosseum';
     case ColumnDelete = 'hugeicons-column-delete';
     case ColumnInsert = 'hugeicons-column-insert';
+    case Columns3Cog = 'hugeicons-columns-3-cog';
     case ColumnsThreeCog = 'hugeicons-columns-three-cog';
     case Combine = 'hugeicons-combine';
     case Comet01 = 'hugeicons-comet-01';
@@ -1634,6 +1647,7 @@ enum Hugeicons: string
     case CrownPlus = 'hugeicons-crown-plus';
     case Crown = 'hugeicons-crown';
     case Crying = 'hugeicons-crying';
+    case Css3 = 'hugeicons-css-3';
     case CssFile01 = 'hugeicons-css-file-01';
     case CssFile02 = 'hugeicons-css-file-02';
     case CssThree = 'hugeicons-css-three';
@@ -1820,6 +1834,8 @@ enum Hugeicons: string
     case Dirham = 'hugeicons-dirham';
     case Disability01 = 'hugeicons-disability-01';
     case Disability02 = 'hugeicons-disability-02';
+    case Disc2 = 'hugeicons-disc-2';
+    case Disc3 = 'hugeicons-disc-3';
     case DiscAlbum = 'hugeicons-disc-album';
     case DiscThree = 'hugeicons-disc-three';
     case DiscTwo = 'hugeicons-disc-two';
@@ -2286,6 +2302,7 @@ enum Hugeicons: string
     case FolderExport = 'hugeicons-folder-export';
     case FolderFavourite = 'hugeicons-folder-favourite';
     case FolderFileStorage = 'hugeicons-folder-file-storage';
+    case FolderGit2 = 'hugeicons-folder-git-2';
     case FolderGitTwo = 'hugeicons-folder-git-two';
     case FolderGit = 'hugeicons-folder-git';
     case FolderHeart = 'hugeicons-folder-heart';
@@ -2309,6 +2326,7 @@ enum Hugeicons: string
     case FolderPlus = 'hugeicons-folder-plus';
     case FolderRemove = 'hugeicons-folder-remove';
     case FolderRoot = 'hugeicons-folder-root';
+    case FolderSearch2 = 'hugeicons-folder-search-2';
     case FolderSearchTwo = 'hugeicons-folder-search-two';
     case FolderSearch = 'hugeicons-folder-search';
     case FolderSecurity = 'hugeicons-folder-security';
@@ -2442,11 +2460,13 @@ enum Hugeicons: string
     case GoBackward10Sec = 'hugeicons-go-backward-10-sec';
     case GoBackward15Sec = 'hugeicons-go-backward-15-sec';
     case GoBackward30Sec = 'hugeicons-go-backward-30-sec';
+    case GoBackward5Sec = 'hugeicons-go-backward-5-sec';
     case GoBackward60Sec = 'hugeicons-go-backward-60-sec';
     case GoBackwardFiveSec = 'hugeicons-go-backward-five-sec';
     case GoForward10Sec = 'hugeicons-go-forward-10-sec';
     case GoForward15Sec = 'hugeicons-go-forward-15-sec';
     case GoForward30Sec = 'hugeicons-go-forward-30-sec';
+    case GoForward5Sec = 'hugeicons-go-forward-5-sec';
     case GoForward60Sec = 'hugeicons-go-forward-60-sec';
     case GoForwardFiveSec = 'hugeicons-go-forward-five-sec';
     case Goal = 'hugeicons-goal';
@@ -2690,6 +2710,7 @@ enum Hugeicons: string
     case HousePlus = 'hugeicons-house-plus';
     case HouseSolarPanel = 'hugeicons-house-solar-panel';
     case HouseWifi = 'hugeicons-house-wifi';
+    case Html5 = 'hugeicons-html-5';
     case HtmlFile01 = 'hugeicons-html-file-01';
     case HtmlFile02 = 'hugeicons-html-file-02';
     case HtmlFive = 'hugeicons-html-five';
@@ -2939,6 +2960,7 @@ enum Hugeicons: string
     case Lasso = 'hugeicons-lasso';
     case LastFm = 'hugeicons-last-fm';
     case Latitude = 'hugeicons-latitude';
+    case Laugh = 'hugeicons-laugh';
     case Laughing = 'hugeicons-laughing';
     case LaurelWreath01 = 'hugeicons-laurel-wreath-01';
     case LaurelWreath02 = 'hugeicons-laurel-wreath-02';
@@ -2969,6 +2991,10 @@ enum Hugeicons: string
     case Layout05 = 'hugeicons-layout-05';
     case Layout06 = 'hugeicons-layout-06';
     case Layout07 = 'hugeicons-layout-07';
+    case Layout2Column = 'hugeicons-layout-2-column';
+    case Layout2Row = 'hugeicons-layout-2-row';
+    case Layout3Column = 'hugeicons-layout-3-column';
+    case Layout3Row = 'hugeicons-layout-3-row';
     case LayoutAlignBottom = 'hugeicons-layout-align-bottom';
     case LayoutAlignLeft = 'hugeicons-layout-align-left';
     case LayoutAlignRight = 'hugeicons-layout-align-right';
@@ -3646,8 +3672,12 @@ enum Hugeicons: string
     case MoveVertical = 'hugeicons-move-vertical';
     case Move = 'hugeicons-move';
     case Mp301 = 'hugeicons-mp-301';
+    case Mp302 = 'hugeicons-mp-302';
+    case Mp401 = 'hugeicons-mp-401';
+    case Mp402 = 'hugeicons-mp-402';
     case MpFour01 = 'hugeicons-mp-four-01';
     case MpFour02 = 'hugeicons-mp-four-02';
+    case MpFour = 'hugeicons-mp-four';
     case MpThree02 = 'hugeicons-mp-three-02';
     case Muhammad = 'hugeicons-muhammad';
     case MultiplicationSignCircle = 'hugeicons-multiplication-sign-circle';
@@ -3657,6 +3687,7 @@ enum Hugeicons: string
     case Mushroom = 'hugeicons-mushroom';
     case Music01 = 'hugeicons-music-01';
     case Music02 = 'hugeicons-music-02';
+    case Music3 = 'hugeicons-music-3';
     case MusicNote01 = 'hugeicons-music-note-01';
     case MusicNote02 = 'hugeicons-music-note-02';
     case MusicNote03 = 'hugeicons-music-note-03';
@@ -3682,6 +3713,8 @@ enum Hugeicons: string
     case Navigation05 = 'hugeicons-navigation-05';
     case Navigation06 = 'hugeicons-navigation-06';
     case Navigation07 = 'hugeicons-navigation-07';
+    case Navigation2Off = 'hugeicons-navigation-2-off';
+    case Navigation2 = 'hugeicons-navigation-2';
     case NavigationOff01 = 'hugeicons-navigation-off-01';
     case NavigationOff = 'hugeicons-navigation-off';
     case NavigationTwoOff = 'hugeicons-navigation-two-off';
@@ -4420,6 +4453,9 @@ enum Hugeicons: string
     case Router = 'hugeicons-router';
     case RowDelete = 'hugeicons-row-delete';
     case RowInsert = 'hugeicons-row-insert';
+    case Rows2 = 'hugeicons-rows-2';
+    case Rows3 = 'hugeicons-rows-3';
+    case Rows4 = 'hugeicons-rows-4';
     case RowsFour = 'hugeicons-rows-four';
     case RowsThree = 'hugeicons-rows-three';
     case RowsTwo = 'hugeicons-rows-two';
@@ -5237,6 +5273,11 @@ enum Hugeicons: string
     case Tags = 'hugeicons-tags';
     case Tailwindcss = 'hugeicons-tailwindcss';
     case TajMahal = 'hugeicons-taj-mahal';
+    case Tally1 = 'hugeicons-tally-1';
+    case Tally2 = 'hugeicons-tally-2';
+    case Tally3 = 'hugeicons-tally-3';
+    case Tally4 = 'hugeicons-tally-4';
+    case Tally5 = 'hugeicons-tally-5';
     case TallyFive = 'hugeicons-tally-five';
     case TallyFour = 'hugeicons-tally-four';
     case TallyOne = 'hugeicons-tally-one';
@@ -5805,6 +5846,7 @@ enum Hugeicons: string
     case Vynil01 = 'hugeicons-vynil-01';
     case Vynil02 = 'hugeicons-vynil-02';
     case Vynil03 = 'hugeicons-vynil-03';
+    case W3Schools = 'hugeicons-w-3-schools';
     case WThreeSchools = 'hugeicons-w-three-schools';
     case Waiter = 'hugeicons-waiter';
     case Waiters = 'hugeicons-waiters';
